@@ -61,3 +61,15 @@ The extension will work out what text you want to be parsed using the following 
 ![image][usecasediagram]
 
 [usecasediagram]: https://yuml.me/diagram/scruffy/usecase/[Customer]-(Sign%20In),%20[Customer]-(Buy%20Products),%20(Buy%20Products)%3E(Browse%20Products),%20(Buy%20Products)%3E(Checkout),%20(Checkout)%3C(Add%20New%20Credit%20Card).svg "Example of rendered use case diagram"
+
+### advanced
+
+If you place your yUML in a <code>```yuml</code> block you can alter the type and style of diagram drawn. The format is <code>```yuml:type:style</code>, so if you wanted to render a scruffy class diagram you could do the following:
+
+<pre>
+```yuml:class:scruffy
+[Customer|-forname:string;surname:string|doShiz()]<>-orders*>[Order]
+[Order]++-0..*>[LineItem]
+[Order]-[note:Aggregate root{bg:wheat}]
+```
+</pre>
