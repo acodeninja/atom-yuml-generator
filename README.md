@@ -8,7 +8,7 @@ You can either select a section of text in a document, or use a whole document a
 
 ![image][screenshot]
 
-[screenshot]:screenshot.png "Screenshot of yuml-generator in action"
+[screenshot]:https://raw.githubusercontent.com/thejsninja/atom-yuml-generator/master/screenshot.png "Screenshot of yuml-generator in action"
 
 ### yUML syntax examples
 
