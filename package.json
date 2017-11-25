@@ -5,10 +5,13 @@
     "email": "lawrence@acode.ninja"
   },
   "main": "./lib/yuml-generator",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A short description of your package",
   "keywords": [
-    "uml", "yuml", "diagram", "preview"
+    "uml",
+    "yuml",
+    "diagram",
+    "preview"
   ],
   "activationCommands": {
     "atom-workspace": "yuml-generator:generate"
@@ -18,6 +21,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
