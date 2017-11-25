@@ -6,7 +6,7 @@
   },
   "main": "./lib/yuml-generator",
   "version": "0.3.0",
-  "description": "A short description of your package",
+  "description": "generate a UML diagram using yuml.me syntax",
   "keywords": [
     "uml",
     "yuml",
