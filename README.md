@@ -9,7 +9,7 @@ You can either select a section of text in a document, or use a whole document a
 The extension will work out what text you want to be parsed using the following rules:
 
 - If text is selected, this will be used
-- If the cursor is positioned between ` ```yuml` and ` ``` ` then the only that text will be selected
+- If the cursor is positioned in a <code>```yuml</code> code block then the only that text will be selected
 - If none of the above rules come into play, then the whole buffer will be sent
 
 ![image][screenshot]
