@@ -6,6 +6,10 @@ This extension will generate a UML diagram using [yUML](https://yuml.me/)'s synt
 
 You can either select a section of text in a document, or use a whole document as a source for rendering a diagram. Triggering a render is done by pressing ```ctrl-alt-p``` and then typing ```Yuml Generator: Generate```, alternatively you can press ```ctrl-alt-y```.
 
+![image][screenshot]
+
+[screenshot]:screenshot.png "Screenshot of yuml-generator in action"
+
 ### yUML syntax examples
 
 #### class diagram
