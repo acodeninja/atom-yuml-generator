@@ -2,7 +2,7 @@
 
 This extension will generate a UML diagram using [yUML](https://yuml.me/)'s syntax. You can draw [class](https://yuml.me/diagram/scruffy/class/samples), [activity](https://yuml.me/diagram/scruffy/activity/samples), and [use case](https://yuml.me/diagram/scruffy/usecase/samples) diagrams. yUML uses a stripped down UML markup designed to keep you on focus, rather than allowing you to get bogged down in the details of making the perfect UML diagram.
 
-#### howto
+### howto
 
 You can either select a section of text in a document, or use a whole document as a source for rendering a diagram. Triggering a render is done by pressing ```ctrl-alt-p``` and then typing ```Yuml Generator: Generate```, alternatively you can press ```ctrl-alt-y```.
 
