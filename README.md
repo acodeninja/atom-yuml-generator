@@ -15,13 +15,9 @@ You can either select a section of text in a document, or use a whole document a
 #### class diagram
 
 ```yuml:class
-[Customer|+email]
-[Order|+reference]
-[Product|+name;+price]
-
-[Customer]-places->[Order]
-[Order]-contains->[Product]
-[Customer]-has baught->[Product]
+[Customer|-forname:string;surname:string|doShiz()]<>-orders*>[Order]
+[Order]++-0..*>[LineItem]
+[Order]-[note:Aggregate root{bg:wheat}]
 ```
 
 ![image][classdiagram]
