@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "yuml-generator:toggle"
   },
-  "repository": "https://github.com/atom/yuml-generator",
+  "repository": "https://github.com/thejsninja/atom-yuml-generator",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
