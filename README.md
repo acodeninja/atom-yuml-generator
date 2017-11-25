@@ -6,6 +6,12 @@ This extension will generate a UML diagram using [yUML](https://yuml.me/)'s synt
 
 You can either select a section of text in a document, or use a whole document as a source for rendering a diagram. Triggering a render is done by pressing ```ctrl-alt-p``` and then typing ```Yuml Generator: Generate```, alternatively you can press ```ctrl-alt-y```.
 
+The extension will work out what text you want to be parsed using the following rules:
+
+- If text is selected, this will be used
+- If the cursor is positioned between ` ```yuml` and ` ``` ` then the only that text will be selected
+- If none of the above rules come into play, then the whole buffer will be sent
+
 ![image][screenshot]
 
 [screenshot]:https://raw.githubusercontent.com/thejsninja/atom-yuml-generator/master/screenshot.png "Screenshot of yuml-generator in action"
