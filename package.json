@@ -6,7 +6,7 @@
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "yuml-generator:toggle"
+    "atom-workspace": "yuml-generator:generate"
   },
   "repository": "https://github.com/thejsninja/atom-yuml-generator",
   "license": "MIT",

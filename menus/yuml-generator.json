@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle yuml-generator",
-        "command": "yuml-generator:toggle"
+        "label": "yUML:Generate",
+        "command": "yuml-generator:generate"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "yuml-generator",
+          "label": "yUML Generator",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "yuml-generator:toggle"
+              "label": "Generate yUML",
+              "command": "yuml-generator:generate"
             }
           ]
         }

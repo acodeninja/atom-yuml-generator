@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "yuml-generator:toggle"
+    "ctrl-alt-y": "yuml-generator:generate"
   }
 }
